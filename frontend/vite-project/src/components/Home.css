@@ -1,0 +1,220 @@
+.main {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(165deg, rgb(173, 110, 221) 30%, rgba(154, 230, 245, 1) 100%);
+    padding: 10px 20px;
+    color: white;
+    width: 92vw;
+    border-radius: 5px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.profile-btn {
+    background-color: white;
+    color: rgb(173, 110, 221);
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.profile-btn:hover {
+    background-color: rgb(173, 110, 221);
+    color: white;
+}
+
+.profile-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: linear-gradient(165deg, rgb(173, 110, 221) 30%, rgba(154, 230, 245, 1) 100%);
+    width: 100%;
+
+}
+
+.profile-card h2 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(235, 11, 247);
+    font-size: 2rem;
+}
+
+.content {
+    margin-top: 40px;
+    color: violet;
+    text-align: center;
+    width: 50vw;
+}
+
+strong {
+    color: rgb(89, 219, 234);
+}
+
+.profile-card p {
+    color: #ffff;
+    margin: 10px;
+    font-size: 1.5rem;
+    height: 30px;
+
+
+}
+
+.card {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.logout {
+    background-color: rgb(173, 110, 221);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.logout:hover {
+    background-color: #fff;
+    color: rgb(173, 110, 221);
+}
+
+.file-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: 2px dotted black;
+    background: linear-gradient(rgb(173, 110, 221) 30%, rgba(154, 230, 245, 1) 100%);
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.file-container {
+    display: grid;
+    place-items: center;
+    gap: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 1.3rem;
+    background-image: linear-gradient(180deg, white 30%, rgb(91, 218, 232) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    background-image: linear-gradient(to bottom, rgb(84, 200, 228) 20%, white, white 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+.icon {
+    width: 200px;
+    height: 200px;
+
+}
+
+.profile-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: rgb(84, 200, 228);
+    list-style-type:none;
+   
+}
+
+
+.profile-ul li{
+  padding: 2px 25px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.profile-ul li:hover{
+   background-color:rgb(173, 110, 221);
+   color: #ffff;
+}
+
+.dropdownProfile {
+    position: absolute;
+    top: 6rem;
+    right: 3.1rem;
+    width: 100px;
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.dropdownProfile::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+    filter: drop-shadow(0 -1px 1px rgba(0,0,0,0.1));
+}
+.profile-icon{
+   cursor: pointer;
+   transition: all 0.4s ease;
+   
+}
+.profile-icon:hover{
+    color:  rgb(173, 110, 221);
+    
+}
+

@@ -1,0 +1,15 @@
+*{
+  margin: 0%;
+  padding: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+span{
+  color: rgb(157, 0, 255);
+  cursor: pointer;
+}
